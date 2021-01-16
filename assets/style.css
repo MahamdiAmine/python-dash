@@ -1,0 +1,137 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: #d9d9d9;
+}
+
+.header {
+    background-color: #222222;
+    height: 150px;
+    padding: 16px 0 0 0;
+}
+
+.header-title{
+    font-size: 48px;
+    color: #74c476;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.description {
+    color: #969696;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+    margin-top: -25px;
+}
+
+.description_footer {
+    color: #969696;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+    margin-top: -10px;
+}
+
+.footer{
+    background-color: #222222;
+    height: 150px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.menu-icon{
+    width:15%;
+    height:100%;
+}
+
+.menu-bar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: -40px auto 0 auto;
+    background-color: #d9d9d9;
+}
+
+.row{
+    width: 12;
+    height: 50px;
+    display: flex;
+    margin-top: 0;
+    background-color: #f0f0f0;
+    justify-content: space-evenly;
+}
+
+.img{
+    width: 10%;
+    height: 10%;
+}
+
+.section{
+    width: 12;
+    height: 300;
+    display: flex;
+    margin-top: 0;
+    justify-content: space-evenly;
+}
+
+.col{
+    width: 10%;
+    height: 100%;
+}
+
+.emoji {
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+}
+.dropdown {
+    color:black;
+}
+
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.menu {
+    height: 112px;
+    width: 912px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 24px;
+    margin: -40px auto 0 auto;
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+}
+
+.Select-control {
+    width: 256px;
+    height: 48px;
+}
+
+.Select--single > .Select-control .Select-value, .Select-placeholder {
+    line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
+.menu-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #079A82;
+}
+
